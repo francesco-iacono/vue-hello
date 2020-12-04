@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- vue -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <title>vuo hello</title>
+  </head>
+  <body>
+    <div id="root">
+     <input v-model="message" placeholder="Inserisci il tuo messaggio">
+     <button @click="miaFunzione">Bottone</button>
+     <img :src="img" alt="" >
+     <p>{{ message }}</p>
+    </div>
+
+    <!-- script -->
+    <script src="js/script.js" charset="utf-8"></script>
+  </body>
+</html>
